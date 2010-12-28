@@ -90,7 +90,7 @@ function ci() {
 
 function diff() {
     if [[ -n "$*" ]] ; then
-        diff $*
+        /usr/bin/diff $*
     else
         git diff
     fi
