@@ -1,0 +1,24 @@
+
+# Git Shorter
+
+## Push
+
+    $ push 
+    # doing:  git push origin (current branch)
+
+    $ push remote2
+    # doing:  git push remote2 (current branch)
+
+    $ push remote2 feature
+    # doing:  git push remote2 feature
+
+
+## Diff
+
+    $ diff
+    # doing: git diff
+
+    $ diff file1 file2
+    # doing: diff file1 file2
+
+
